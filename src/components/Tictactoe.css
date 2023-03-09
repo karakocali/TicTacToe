@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+}
+
+body {
+    background: linear-gradient(to bottom, #d34e4e, #4612cb);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+table tr {
+    background: orange;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-shadow: 0 0 10px #00bfff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+table td {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+    cursor: pointer;
+
+
+}
+
+#button {
+    border-radius: 50px;
+    background-color: #0d3209;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0px 2px 5px rgba(92, 243, 16, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+#button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+   cursor: pointer;
+}
